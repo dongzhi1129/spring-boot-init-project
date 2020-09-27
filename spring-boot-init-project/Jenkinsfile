@@ -2,7 +2,7 @@ pipeline {
    agent any
    parameters {
        string(name:'Git_Branch',defaultValue:'master',description:'enter git repo')
-       string(nmae:'Git_Tag',defaultValue:'',description:'')
+       string(name:'Git_Tag',defaultValue:'',description:'')
    }
    tools{
        gradle 'Gradle_6.6.1'
